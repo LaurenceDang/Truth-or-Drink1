@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Truth_or_Drink1.HomePage"
+             Title="Home Page">
+    
+        <StackLayout>
+            <Button 
+                Text="Host Game"
+                TextColor="Black"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                Clicked="HostGameButton_Clicked" 
+                Margin="0,40,0,0"
+                BackgroundColor="#0f76e0"/>
+            <Button 
+                Text="Join Game"
+                TextColor="Black"
+                VerticalOptions="StartAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                Clicked="JoinGameButton_Clicked" 
+                Margin="0,40,0,0"
+                BackgroundColor="Green"/>
+            <Button 
+                Text="My QR-code"
+                TextColor="Black"
+                VerticalOptions="StartAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                Clicked="QRCodeButton_Clicked" 
+                Margin="0,40,0,0"
+                BackgroundColor="#0f76e0"/>
+        </StackLayout>
+</ContentPage>

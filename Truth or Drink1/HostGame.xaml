@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Truth_or_Drink1.HostGame"
+             Title="Host Game">
+    <VerticalStackLayout>
+        <Label 
+            Text="Hier krijg je opties voor het instellen van je game voordat je het host"
+            VerticalOptions="CenterAndExpand" 
+            HorizontalOptions="CenterAndExpand" />
+        <Button
+            Text="Host game"
+            TextColor="Black"
+            VerticalOptions="CenterAndExpand"
+            HorizontalOptions="CenterAndExpand"
+            Clicked="Button_Clicked"/>
+
+
+        <Button
+            Text="Keer terug naar homescreen"
+            TextColor="Black"
+            VerticalOptions="CenterAndExpand"
+            WidthRequest="250"
+            HorizontalOptions="CenterAndExpand"
+            Clicked="Button_Clicked_1"/>
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Truth_or_Drink1.MainPage">
+
+    <StackLayout Margin="20"
+                 BackgroundColor="White">
+
+
+        <Frame
+                BackgroundColor="#0f76e0"
+                Padding="24"
+                CornerRadius="13">
+            <Label Text="Truth or Drink"
+                       TextColor="Black"
+                       FontSize="36"
+                       HorizontalTextAlignment="Center"/>
+        </Frame>
+
+        <StackLayout
+            Padding="30,0"
+            Spacing="25"
+            VerticalOptions="CenterAndExpand">
+
+
+            <Label
+                x:Name="UsernameLabel"
+                Text="Username: "
+                TextColor="Black"
+                HorizontalOptions="Center"/>
+            <Entry
+                x:Name="UsernameEntry"
+                Placeholder="Enter your username here: "
+                HorizontalOptions="Center"
+                TextColor="Black"/>
+
+            <Label
+                x:Name="PasswordLabel"
+                Text="Password: "
+                TextColor="Black"
+                HorizontalOptions="Center"/>
+            <Entry
+                x:Name="PasswordEntry"
+                Placeholder="Enter your password here: "
+                HorizontalOptions="Center"
+                TextColor="Black"
+                IsPassword="True"/>
+
+            <Button
+                x:Name="LogInButton"
+                Text="Log In"
+                Clicked="LogInButton_Clicked"
+                Margin="0,40,0,0"
+                TextColor="Black"
+                HorizontalOptions="Center"
+                BackgroundColor="#0f76e0"/>
+
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
